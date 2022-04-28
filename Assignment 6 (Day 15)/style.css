@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+li {
+    list-style-type: none;
+}
+/* Navbar Start */
+#navbar {
+    background-color: #3944F7;
+}
+.navbar-content {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-content h2 a{
+    color: white;
+}
+.navbar-list {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+.bi-heart-fill {
+    color: red;
+}
+.navbar-list li a {
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+    padding: 10px;
+    color: white;
+}
+.navbar-list li a:hover {
+    background-color: white;
+    color: #3944F7;
+}
+
+/* Navbar End */
+
+/* Sign In & Sign Up Start */
+
+.font-weight-bold{
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+    gap: 10px;
+}
+
+input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+.social-container {
+    margin: 5px;
+}
+
+.social-container a {
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    margin-bottom: 60px;
+    padding-top: 5px;
+}
+
+.form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.sign-in-container {
+    left: 0;
+    width: 50%;
+}
+
+.sign-up-container {
+    right: 0;
+    width: 50%;
+}
+
+.btn-danger {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+#facebook {
+    color: #3b5998;
+}
+
+#google {
+    color: #dd4b39;
+}
+
+#twitter {
+    color: #00aced;
+}
+
+/* Sign In & Sign Up End */
