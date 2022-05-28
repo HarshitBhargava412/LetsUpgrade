@@ -120,11 +120,13 @@ body, html {
     overflow: hidden;
     text-overflow: ellipsis;
     height: 55px;
+    margin-bottom: 10px;
 }
 
 .product-card-body h4 {
     background: white;
     color: black;
+    margin-top: 10px;
 }
 
 @media (max-width: 432px) {
